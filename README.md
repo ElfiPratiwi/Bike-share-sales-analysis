@@ -74,7 +74,7 @@ Total riders over the two-year period: 3 million.
 6. Profit Margin:
 Consistent profit margin of 45%.
 
-# Recommendation
+### Recommendation
 1. Targeted Marketing and Promotions
 Peak Commuting Hours: Since the average revenue peaks during commuting hours, implement targeted marketing campaigns aimed at commuters. Offer special promotions, such as discounted rates or membership benefits, for morning and evening rush hours to further incentivize use during these periods.
 Seasonal Promotions: To address the revenue dip from December to March, introduce winter promotions. Offer discounted long-term memberships or bundled deals for the winter season to encourage continued use despite the colder weather. Collaborate with local businesses to provide warm-up spots or complimentary hot beverages for riders.
