@@ -13,7 +13,7 @@
 ### project overview
 This data analysis project aims to provide insights into the sales performance of a bike rental company for 2021 and 2022. By analyzing various aspects of the rental data, we seek to identify trends, make data-driven decisions, and gain a deeper understanding of the company's performance. 
 
-### Data Sources 
+### Data Source
 The data source comes from Kaggle (https://www.kaggle.com/datasets/walmalki/toman-bike-share-dataset). The file bike0.csv contains rental data from 2021, and the file bike2.csv contains rental data from 2022. The file cost_table.csv contains rental costs and COGS (Cost of Goods Sold) for each year.
 
 ### Tools
@@ -32,7 +32,7 @@ EDA involved exploring the data with answering the manager requirements, such as
 3. Seasonal revenue
 4. Rider demographics
 
-### Data Analysis
+### Sql Code
 ```sql
     WITH cte_bike AS (
         SELECT * FROM bike0
