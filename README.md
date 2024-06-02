@@ -6,7 +6,7 @@
 - [Tools](#tools)
 - [Data Preparation](#data-preparation)
 - [Exploratory Data Analysis](#exploratory-data-analysis)
-- [Data Analysis](#data-analysis)
+- [Sql Code](#Sql-Code)
 - [Results/Findings](#resultsfindings)
 - [Recommendations](#recommendations)
   
@@ -52,7 +52,7 @@ EDA involved exploring the data with answering the manager requirements, such as
         riders * price as revenue,
         (riders * price) - COGS as profit
     FROM cte_bike A
-    JOIN cost_table B ON a.yr = b.yr;
+    JOIN cost_table B ON a.yr = b.yr;```
 
 ### Results / Findings
 The analysis results are summarised as follow :
