@@ -55,7 +55,7 @@ EDA involved exploring the data with answering the manager requirements, such as
     JOIN cost_table B ON a.yr = b.yr;
 ```
 
-### Results / Findings
+### Results/Findings
 The analysis results are summarised as follow :
 1. Hourly Revenue Peaks:
 Average revenue per hour peaks during commuting times (morning and evening rush hours).
@@ -74,7 +74,7 @@ Total riders over the two-year period: 3 million.
 6. Profit Margin:
 Consistent profit margin of 45%.
 
-### Recommendation
+### Recommendations
 1. Targeted Marketing and Promotions
 Peak Commuting Hours: Since the average revenue peaks during commuting hours, implement targeted marketing campaigns aimed at commuters. Offer special promotions, such as discounted rates or membership benefits, for morning and evening rush hours to further incentivize use during these periods.
 Seasonal Promotions: To address the revenue dip from December to March, introduce winter promotions. Offer discounted long-term memberships or bundled deals for the winter season to encourage continued use despite the colder weather. Collaborate with local businesses to provide warm-up spots or complimentary hot beverages for riders.
