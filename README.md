@@ -34,25 +34,25 @@ EDA involved exploring the data with answering the manager requirements, such as
 
 ### Data Analysis
 ```sql
-WITH cte_bike AS (
-    SELECT * FROM bike0
-    UNION
-    SELECT * FROM bike1
-)
-SELECT 
-    dteday,
-    season,
-    weekday,
-    a.yr,
-    hr,
-    rider_type,
-    riders,
-    price,
-    COGS,
-    riders * price as revenue,
-    (riders * price) - COGS as profit
-FROM cte_bike A
-JOIN cost_table B ON a.yr = b.yr;
+    WITH cte_bike AS (
+        SELECT * FROM bike0
+        UNION
+        SELECT * FROM bike1
+    )
+    SELECT 
+        dteday,
+        season,
+        weekday,
+        a.yr,
+        hr,
+        rider_type,
+        riders,
+        price,
+        COGS,
+        riders * price as revenue,
+        (riders * price) - COGS as profit
+    FROM cte_bike A
+    JOIN cost_table B ON a.yr = b.yr;
 
 ### Results / Findings
 The analysis results are summarised as follow :
